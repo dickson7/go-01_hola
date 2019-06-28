@@ -65,3 +65,19 @@ header .img-info img{
 }
 
 /* About */
+
+.desc-about{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.about{
+    width: 30%;  
+    margin: 50px;
+    
+}
+.about h2{
+    text-align: center;
+
+}
