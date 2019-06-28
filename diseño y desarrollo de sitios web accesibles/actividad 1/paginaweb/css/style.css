@@ -3,4 +3,65 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
+
+/* encabezado */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #336b87;
+    height: 80px;
+}
+.nav-links{
+    width: 50%;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo{
+    margin-left: 50px;
+}
+.logo h1{
+    font-size: 30px;
+}
+
+/* Banner principal */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90afc5;
+    height: 500px;
+}
+header .info{
+    width: 50%;
+    color: white;
+    margin-left: 50px;
+}
+
+header .img-info{
+    width: 50%;
+}
+
+header .img-info img{
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* About */

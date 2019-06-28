@@ -12,7 +12,7 @@
 <body>
     <nav>
         <div class="logo">
-            Dickson
+            <h1>Dickson Garcia</h1>
         </div>
         <div class="nav-links">
             <ul>
@@ -23,18 +23,22 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </div>
-        <header>
-            <div class="info">
-                <H3>Bienvenido</H3>
-                <h1>YO SOY DICKSON</h1>
-                <h3>Desarrollador Web</h3>
-            </div>
-            <div class="img-info">
-                <img src="./img/foto.jpg" alt="">
-            </div>
-        </header>
-        <section class="about">
-            <h2>ACERCA DE MI</h2>
+    </nav>
+    
+    <header>
+        <div class="info">
+            <H3>Bienvenido</H3>
+            <h1>YO SOY DICKSON</h1>
+            <h3>Desarrollador Web</h3>
+        </div>
+        <div class="img-info">
+            <img src="./img/foto.jpg" alt="">
+        </div>
+
+    </header>
+    
+    <section id="about">
+        <h2>ACERCA DE MI</h2>
             <div class="pefil">
                 <h3>Perfil</h3>
                 <p>Lorem ipsum dolor sit amet consectetur 
@@ -45,12 +49,88 @@
                 </p>
             </div>
             <div class="cursos">
-
+                <h3>Cursos</h3>
+                <ul>
+                    <li>Curso 1</li>
+                    <li>Curso 2</li>
+                    <li>Curso 3</li>
+                    <li>Curso 4</li>
+                </ul>
             </div>
             <div class="experiencia">
-
+                <h3>Experiencia</h3>
+                <ol>
+                    <li>Experiencia 1</li>
+                    <li>Experiencia 2</li>
+                    <li>Experiencia 3</li>
+                    <li>Experiencia 4</li>
+                </ol>
             </div>
-        </section>
-    </nav>
+    </section>
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="item-service">
+            <div class="img-service">
+                imagen
+            </div>
+            <div class="info-service">
+                <h3>Titulo servicio 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit velit est vitae.</p>
+            </div>
+        </div>
+        <div class="item-service">
+            <div class="img-service">
+                imagen
+            </div>
+            <div class="info-service">
+                <h3>Titulo servicio 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit velit est vitae.</p>
+            </div>
+        </div>
+        <div class="item-service">
+            <div class="img-service">
+                imagen
+            </div>
+            <div class="info-service">
+                <h3>Titulo servicio 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit velit est vitae.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="porfolio">
+        <h3>Porfolio</h3>
+        <div class="img-porfolio">
+            <img src="./img/porfolio1.jpeg" alt="porfolio1 ">
+            <img src="./img/porfolio2.jpeg" alt="porfolio1 ">
+            <img src="./img/porfolio3.png" alt="porfolio1 ">
+            <img src="./img/porfolio4.jpeg" alt="porfolio1 ">
+            <img src="./img/porfolio5.jpeg" alt="porfolio1 ">
+            <img src="./img/porfolio6.jpeg" alt="porfolio1 ">
+            <img src="./img/porfolio7.jpeg" alt="porfolio1 ">
+            <img src="./img/porfolio8.jpeg" alt="porfolio1 ">
+
+        </div>
+    </section>
+    <section id="contact">
+        <h3>Contacto</h3>
+        <form action class="form">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" autocomplete="off" required>
+            <label for="service">Interesado en cual servicio?</label>
+            <select name="service" id="">
+                <option value="1">Desarrollo Web</option>
+                <option value="1">Almacenamiento en la nube</option>
+                <option value="1">Soporte IT</option>
+                <option value="1">Seguridad Informatica</option>
+                <option value="1">Marketing Digital</option>
+            </select>
+            <label for="mail">Correo</label>
+            <input type="mail" name="mail" autocomplete="off" required>
+            <label for="message">Mensaje</label>
+            <textarea name="textarea" id="" cols="30" rows="10" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 </body>
 </html>
