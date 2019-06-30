@@ -13,9 +13,11 @@ nav{
     align-items: center;
     background-color: #336b87;
     height: 80px;
+    color: white;
 }
 .nav-links{
     width: 50%;
+    margin-right: 50px;
 }
 .nav-links ul{
     display: flex;
@@ -25,12 +27,16 @@ nav{
     list-style: none;
 }
 .nav-links a{
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
-
+.nav-links a:hover{
+    transform: scale(2);
+    color: black;
+}
 .logo{
     margin-left: 50px;
 }
@@ -44,13 +50,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #90afc5;
     height: 400px;
     margin-bottom: 50px;
 }
 header .info{
     width: 50%;
-    color: white;
+    color: black;
     margin-left: 50px;
 }
 
@@ -66,10 +71,14 @@ header .img-info img{
 }
 
 /* About */
+#about{
+    background-color: #90afc5;
+    padding-top: 1px;
+}
 #about h2{
     text-align: center;
     text-transform: uppercase;
-
+    margin: 30px 0;
 }
 
 .desc-about{
@@ -80,8 +89,7 @@ header .img-info img{
 
 .about{
     width: 30%;  
-    margin: 0 50px;
-    
+    margin: 0 50px 20px;
 }
 
 .about h3{
@@ -92,7 +100,7 @@ header .img-info img{
 /* Services */
 #services h2{
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 0;
     text-transform: uppercase;
 
 }
@@ -110,7 +118,14 @@ header .img-info img{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
+.img-service:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 3px 10px #336b87;
+}
+
 .img-service i{
     color: #336b87;
     font-size: 30px;
@@ -122,21 +137,30 @@ header .img-info img{
 }
 
 /* Porfolio */
+#porfolio{
+    background-color: #90afc5;
+    padding-top: 1px;
+}
 #porfolio h2{
     text-align: center;
-    margin-bottom: 50px;
+    margin: 30px 0;
     text-transform: uppercase;
 }
 
 .img-porfolio{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 .img-porfolio img{
-    width: 23%;
+    width: 22%;
     margin: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.img-porfolio img:hover{
+    transform: scale(1.1);
 }
 
 /* Contacto */
@@ -161,7 +185,30 @@ label{
 input, textarea{
     width: 500px;
 }
+.form-btn{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    height: 40px;
+    background-color: #90afc5;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color: #336b87;
+}
 
-button{
-    margin: 20px;
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: #336b87;
+    color: white;
+    padding: 20px;
 }
