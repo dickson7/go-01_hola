@@ -144,3 +144,24 @@ header .img-info img{
     text-align: center;
     text-transform: uppercase;
 }
+.form{
+    margin-bottom: 50px;
+    
+}
+.name, .form-service, .form-mail, .message{
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+}
+label{
+    width: 200px;
+    text-align: right;
+    margin: 10px 20px;
+}
+input, textarea{
+    width: 500px;
+}
+
+button{
+    margin: 20px;
+}

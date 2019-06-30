@@ -63,10 +63,9 @@
             <div class="about experiencia">
                 <h3>Experiencia</h3>
                 <ol>
-                    <li>Experiencia 1</li>
-                    <li>Experiencia 2</li>
-                    <li>Experiencia 3</li>
-                    <li>Experiencia 4</li>
+                    <li>Soporte y reparación en telecomunicaciones (2017)</li>
+                    <li>Ingeniero de Soporte (2018)</li>
+                    <li>IT Sr Support (2019)</li>
                 </ol>
             </div>
         </div>
@@ -119,20 +118,29 @@
     <section id="contact">
         <h2>Contacto</h2>
         <form action class="form">
-            <label for="name">Nombre</label>
-            <input type="text" name="name" autocomplete="off" required>
-            <label for="service">Interesado en cual servicio?</label>
-            <select name="service" id="">
-                <option value="1">Desarrollo Web</option>
-                <option value="1">Almacenamiento en la nube</option>
-                <option value="1">Soporte IT</option>
-                <option value="1">Seguridad Informatica</option>
-                <option value="1">Marketing Digital</option>
-            </select>
-            <label for="mail">Correo</label>
-            <input type="mail" name="mail" autocomplete="off" required>
-            <label for="message">Mensaje</label>
-            <textarea name="textarea" id="" cols="30" rows="10" required></textarea>
+            <div class="name">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" autocomplete="off" required>
+            </div>
+            <div class="form-service">
+                <label for="service">Interesado en cual servicio?</label>
+                <select name="service" id="">
+                    <option value="1">Desarrollo Web</option>
+                    <option value="1">Almacenamiento en la nube</option>
+                    <option value="1">Soporte IT</option>
+                    <option value="1">Seguridad Informatica</option>
+                    <option value="1">Marketing Digital</option>
+                </select>
+            </div>
+            <div class="form-mail">
+                    <label for="mail">Correo</label>
+                    <input type="mail" name="mail" autocomplete="off" required>
+            </div>
+            <div class="message">
+                    <label for="message">Mensaje</label>
+                    <textarea name="textarea" id="" cols="30" rows="10" required></textarea>
+            </div>
+            
             <button type="submit">Enviar</button>
         </form>
     </section>
